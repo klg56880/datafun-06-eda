@@ -94,5 +94,5 @@ git push origin main
 
 ```
 
-## Created Module 5 project according to the following specifications:
+## Created Module 6 project according to the following specifications:
 - [datafun-06-spec](https://github.com/denisecase/datafun-06-spec)
