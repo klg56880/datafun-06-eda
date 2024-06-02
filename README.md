@@ -13,7 +13,7 @@ Added the default README.md
 
 Named the script "karitaylor_eda.ipynb"
 
-## Clone project down to my machine
+## Cloned project down to my machine
 Opened VS Code 
 
 Used file > open folder to access the folder where I want my project to reside
@@ -28,7 +28,7 @@ git clone site_URL
 
 ```
 
-## Create and activate a Python virtual environment
+## Created and activated a Python virtual environment
 Used the following command to create a virtual environment:
 ```shell
 
@@ -42,12 +42,12 @@ Used the following command to activate the virtual environment:
 
 ```
 
-## Create a requirements.txt file
+## Created a requirements.txt file
 Created a new file in the root project folder labeled requirements.txt
 
 Listed the required external dependencies in this file
 
-## Install external dependencies in the requirements.txt file and freeze
+## Installed external dependencies in the requirements.txt file and froze
 Installed dependencies using the following command:
 ```shell
 
@@ -61,7 +61,7 @@ py -m pip freeze > requirements.txt
 
 ```
 
-## Create .gitignore
+## Created .gitignore
 Created a new file in my datafun-05-sql-project folder named .gitignore
 
 Typed .venv/ into line 1
@@ -84,6 +84,14 @@ Git push your initial changes to GitHub with the following command:
 git push origin main
 
 ```
+
+## Chose a data set
+Chose a data set that is pre-installed in Seaborn. Using a well known and clean dataset ensures that I can focus on the required specifications and skills in the project instead of spending time cleaning the data. The data set that I chose was:
+
+- [tips.csv](https://github.com/mwaskom/seaborn-data/blob/master/tips.csv)
+
+This data documents a set of 245 total restaurant bills --- complete with total bill amount, tip amount, party size, day of the week, time of day, smoker status, and customer gender. 
+
 ## Repeated Git add and commit
 Periodically add, commit, and push files from my machine to the associated online repo using the following commands:
 ```shell
