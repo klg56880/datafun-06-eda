@@ -92,6 +92,42 @@ Chose a data set that is pre-installed in Seaborn. Using a well known and clean 
 
 This data documents a set of 245 total restaurant bills --- complete with total bill amount, tip amount, party size, day of the week, time of day, smoker status, and customer gender. 
 
+## Imported local dependencies and loaded data
+Imported required local dependencies and loaded the required data into vs code.
+
+```shell
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+
+# Load the dataset into a pandas DataFrame - adjust this process for your custom data
+df = sns.load_dataset('tips')
+
+# Inspect first rows of the DataFrame
+print(df.head())
+
+```
+
+## Performed an initial data inspection
+Took a quick look at the first 10 rows of the data, displayed the shape of the data, and inspected the type of data in each column. 
+
+```shell
+
+print(df.head(10))
+print(df.shape)
+print(df.dtypes)
+
+```
+
+## Performed an initial inspection of the data's descriptive statistics
+Took a quick look at the data's summary statistics for each numerical column. This includes count, mean, standard deviation, minimum, and maximum. 
+
+```shell
+
+print(df.describe())
+
+```
+
 ## Repeated Git add and commit
 Periodically add, commit, and push files from my machine to the associated online repo using the following commands:
 ```shell
