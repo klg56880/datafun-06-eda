@@ -6,7 +6,7 @@ In project 6 I will create my own custom exploratory data analysis (EDA) project
 
 ## How to Install and Run the Project
 
-##Create Project
+## Create Project
 Created a new repo in GitHub with the name 'datafun-06-EDA' 
 
 Added the default README.md 
