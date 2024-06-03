@@ -128,6 +128,21 @@ print(df.describe())
 
 ```
 
+## Created various histograms for data distribution analysis
+Created multiple histograms to analyze the data distribution of both the numerical columns and categorical columns.
+
+## Data transformation and feature engineering
+Transformed the data by renaming two columns and adding one additional column.
+
+## Chose two goal questions to answer
+Chose the following two goal questions to answer through data analysis:
+
+Which day of the week and time of day yields the highest tips?
+Who tips better, men or women?
+
+## Created visualizations to present data and tell a story
+Created swarm plots and bar graphs to illustrate the data analysis required to answer the goal questions. Extensive data manipulation was also performed in order to ensure data integrity. 
+
 ## Repeated Git add and commit
 Periodically add, commit, and push files from my machine to the associated online repo using the following commands:
 ```shell
